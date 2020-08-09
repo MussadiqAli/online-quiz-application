@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'google';
+    src: url('ProductSans-Light.ttf');
+}
+*{
+    font-family: google;
+}
+#img{
+    width: 400px;
+}
+
+
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    border-radius: 9px;
+    font-size: 100%;
+    color: gray;
+    border: solid 3px gray;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+}
+.btn:hover{
+   background-color: rgb(190, 248, 248);
+}
+
+
+
+
+
+
+
+
+
+.field{
+    background-color: rgb(190, 248, 248);
+    border-radius: 1.3em;
+    border: none;
+    text-align: left;
+    padding-left: 2em;
+    color: black;
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.display{
+    display: block;
+}
+.hidden{
+    display: none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+    <img src="Saylani-logo.png" id="img" alt="">
+    <h1>Saylani Online Quiz</h1>
+    </center>
+
+    <div id="quiz" class="content">
+        <fieldset class="field">
+            <p><b>Q.1 </b>  What is the name of capital city of Pakistan?</p>
+            <input type="radio" name="q1" id="q1-1">Islamabad   <br>
+            <input type="radio" name="q1" id="q1-2">Karachi     <br>
+            <input type="radio" name="q1" id="q1-3">Lahore      <br>
+            <input type="radio" name="q1" id="q1-4">Faisalabad  <br>
+        </fieldset>
+        
+        <fieldset class="field">
+            <p><b>Q.2 </b> Who was the founder of Pakistan?</p>
+            <input type="radio" name="q2" id="q2-1">Rehmat Ali   <br>
+            <input type="radio" name="q2" id="q2-2">Alama Iqbal   <br>
+            <input type="radio" name="q2" id="q2-3">Quid e Azam    <br>
+            <input type="radio" name="q2" id="q2-4">Liyaqat Ali   <br>
+        </fieldset>
+        
+        <fieldset class="field">
+            <p><b>Q.3 </b> Who is the prime minister of Pakistan? </p>
+            <input type="radio" name="q3" id="q3-1">Zardari       <br>
+            <input type="radio" name="q3" id="q3-2">Sharif        <br>
+            <input type="radio" name="q3" id="q3-3">Imran Khan    <br>
+            <input type="radio" name="q3" id="q3-4">Bhutto        <br> 
+        </fieldset>
+        
+        <fieldset class="field">
+            <p><b>Q.4 </b>  Name of Army Chief of Pakistan</p>
+            <input type="radio" name="q4" id="q4-1">Raheel Sharif   <br>
+            <input type="radio" name="q4" id="q4-2">Usman Buzdaar   <br>
+            <input type="radio" name="q4" id="q4-3">Kayani          <br>
+            <input type="radio" name="q4" id="q4-4">Qamar Bajwa     <br>
+        </fieldset>  
+
+        <button class="btn" onclick="result()">Submit</button>
+    </div>
+    
+    <div id="rslt" class="hidden">
+        <fieldset class="field">
+            <h3 id="result"></h3>
+            <h4 id="score"></h4>
+        </fieldset>
+    </div>
+
+   
+
+    
+
+</body>
+<script src="app.js"></script>
+</html>
